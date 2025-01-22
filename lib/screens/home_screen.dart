@@ -53,6 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return duration.toString().split(".").first.substring(2, 7);
   }
 
+  //Function reuse
   void onResetPressed() {
     //code Challenge Timer Reset
     onPausePressed();
